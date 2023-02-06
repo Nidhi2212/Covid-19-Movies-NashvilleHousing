@@ -6,40 +6,42 @@ This readme describes the work done on the  **Covid-19 Dataset** which is downlo
 
 
 <div align = "justify">
-SQL is used to conduct exploratory analysis. Firstly, 2 tables for uploading dataset saved in .csv format are created in MySQL Workbench. Afterwards, different queries to calculate Death Percentage, Contract Percentage, Percentage of Population Infected, Percentage of Population Died, and Highest Death Count per Continent are executed.
+SQL is used to conduct exploratory analysis. As a first step, 2 tables are created for uploading dataset saved in .csv format. Then, you can execute different queries to calculate Death Percentage, Contract Percentage, Percentage of Population Infected, Percentage of Population Died, and Highest Death Count per Continent.
+
+<b> SQL queries can be found here in the repository under file name: SQL - Exploratory Analysis.sql </b>
 
 <br/>
 <div align = "justify">
-Tableau is used for converting above results into visuals. Since Tableau Public cannot be connected with SQL, different set of queries are written for Tableau and the results are saved into MS Excel sheets which are then uploaded to Tableau for creating visuals.
+Tableau is used for visuals.
+Queries to generate Tableau visuals can be found under file name: <b> SQL - Queries to build Tableau Visuals.sql </b>
+<br/>
 
-* SQL queries can be found here: [SQL Queries](https://github.com/Nidhi2212/Covid-19.git)
-
-
-* Tableau Dashboard can be viewed here: [Covid-19 Visualization](https://public.tableau.com/app/profile/nidhi.gupta7518/viz/PortfolioProject-Covid_16735363014950/Dashboard1)
+<b> Tableau Dashboard: [Covid-19 Visualization](https://public.tableau.com/app/profile/nidhi.gupta7518/viz/PortfolioProject-Covid_16735363014950/Dashboard1) </b>
 
 
 # Movies Data (1986 - 2016)
 ### Introduction
 
 **<div align = "justify">**
-This readme describes the work done on the  **Movies Dataset** which is downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies.
+This readme describes the work done on the  **Movies Dataset** which is downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies. </div>
 
 
 <div align = "justify">
-Python is used to clean the data and then conduct exploratory analysis and create visualizations. Firstly, the libraries which are to be used in Python for mentioned analysis are imported and then dataset in .csv format is uploaded. Afterwards, different queries to view the data, change the data type of columns, extract year from the release data column and create line, scatter plot and heatmap using different columns are executed.
+Python is used to clean the data and then conduct exploratory analysis and create visualizations. Queries are executed to view the data, change the data type of columns, extract year from the release date column and create line, scatter plot and heatmap using different columns.
 
-**<br/>**
-Python code can be found here: [Python](https://github.com/Nidhi2212/Movies-1986-2016.git)
+
+Python code can be found here: Python - Data Cleaning, Exploratory Analysis and Visualization.ipynb 
+
+Results from Python code can be found under file name: </div>
 
 # Data Cleaning with Housing Dataset using SQL
 ### Introduction
 
 **<div align = "justify">**
-This readme describes the work done on the  **Nashville Housing Dataset**.
+This readme describes the work done on the  **Nashville Housing Dataset**. </div>
 
 <div align = "justify">
-SQL is used to clean the data. Firstly, a table for uploading dataset saved in .csv format is created in MySQL Workbench. Afterwards, different queries are written to make the dataset useful for further analysis. Data is cleaned by standardizing the date columns, populating blanks in Address column, separating City and State from Address, removing duplicate rows and finally, removing unused columns.
-
-**<br/>**
-SQL queries can be found here: [SQL Queries](https://github.com/Nidhi2212/Nashville-Housing-Data.git)
+The dataset can be uploaded in a database table and then SQL operations can be performed to clean the data.
+<br/> File name SQL - Data Cleaning.sql consists of query to load the data in database and further queries are written to make the dataset useful for analysis.
+<br/> Data is cleaned by standardizing the date columns, populating blanks in Address column, separating City and State from Address, removing duplicate rows and finally, removing unused columns. </div>
 
