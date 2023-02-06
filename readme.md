@@ -31,7 +31,7 @@ Python is used to clean the data and then conduct exploratory analysis and creat
 
 Python code can be found here: visualizations-cleaning-analysis.ipynb 
 
-Results from Python code can be found under file name: </div>
+Results from Python code can be found under file name: Python Results.pdf </div>
 
 # Data Cleaning with Housing Dataset using SQL
 
